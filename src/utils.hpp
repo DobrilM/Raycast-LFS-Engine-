@@ -39,3 +39,9 @@ struct vec3 {
 	//vector length
 	double length() {return std::sqrt(x*x+y*y+z*z);}
 };
+namespace phys {
+	double dBtoWm2(double intensity);
+	double Wm2todB(double intensity);
+	vec3<double> calcRefraction(vec3<double> direction);
+}
+

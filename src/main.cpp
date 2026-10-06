@@ -2,8 +2,13 @@
 
 int main(int argc, char** argv) {
 	std::cout <<  "initial commit";
-	return 0;
 
+	/*
+	 *Command line arg acquisition
+	*/
+	
+	return 0;
+	
 	/*
 	 * input: freq, resolution of rays, resolution of reciever, stl file location
 	 * 	calculate wavelength+
