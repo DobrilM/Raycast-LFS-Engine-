@@ -12,8 +12,8 @@ struct vec3 {
 
 	vec3() {};
 	
-	explicit vec3(T i) : x(i) , y(i ), z(i) {};
-	explicit vec3(T x, T y, T z) : x(x) , y(y), z(z) {};
+	vec3(T i) : x(i) , y(i ), z(i) {};
+	vec3(T x, T y, T z) : x(x) , y(y), z(z) {};
 	
 	//directional vector from points
 	vec3(vec3<T> firstPoint, vec3<T> secondPoint) : x(secondPoint.x - firstPoint.x),

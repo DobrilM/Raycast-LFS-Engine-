@@ -18,8 +18,7 @@ struct soundRayBundle_t {
 	std::vector<soundRay_t> rays;
 };
 
-class ray {
-	public:
+namespace ray {
 		soundRayBundle_t generateRays(	int resolutionX,
 						int resolutionY, 
 						vec3<double> origin, 

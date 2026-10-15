@@ -1,12 +1,11 @@
 #include "ray.hpp"
-
 soundRayBundle_t ray::generateRays(int resolutionX, int resolutionY, vec3<double> origin, double intensity, double frequency) {
 	std::vector<soundRay_t> rays;
 	
 
 	double intensityWm2 = phys::dBtoWm2(intensity);
 	for (int i =0; i < resolutionY; i++) {
-		for (int j=0; i<resolutionX; j++) {
+		for (int j=0; j<resolutionX; j++) {
 			soundRay_t tempRay;
 			//x from -0.5 to 0.5
 			double positionX = (i*1.0f/(resolutionX*1.0f)) - 0.5f;

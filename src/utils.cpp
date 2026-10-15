@@ -9,7 +9,7 @@ double phys::Wm2todB(double intensitydB) {
 }
 
 vec3<double> phys::calcRefraction(vec3<double> direction) {
-	vec3 refractedDirection;
-	return refractedDirection;
+	//vec3 refractedDirection;
+	return vec3<double>(0);
 }
 

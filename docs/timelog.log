@@ -27,4 +27,4 @@ date   	time	  	time delta	total time	work done
 290626  0910 - 1040	d1h 30min	t17h 40m	:search for experts
 300926	1428 - 1711	d2h 43min	t20h 23m	:partial ray implementation
 041026	1224 - 1721	d4h 57min	t25h 20m	:stl implementation, triangle type implementation, triangle and ray intersection 							  implementation 
-
+151026	1701 - 2015	d3h 14min	t28h 34m	:AABB algorithm implemenation, ray intersection testin, ray generation testing, mass test multiple rays to one triangle, with succes

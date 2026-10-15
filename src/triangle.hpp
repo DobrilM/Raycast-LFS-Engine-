@@ -23,8 +23,12 @@ struct triangleBundle_t {
 
 namespace triangles {
 
+	triangle_t generateTriangleManually(vec3<double> p0, vec3<double> p1, vec3<double> p2); 
+
 	triangleBundle_t loadSTL(std::string filedir);
+
 	bool rayIntersectsAABB(soundRay_t& ray, triangle_t& triangle);
+
 	vec3<double> findIntersecRayTriangle(soundRay_t& ray, triangle_t& triangle);
 
 };
